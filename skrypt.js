@@ -1,4 +1,3 @@
-
 var ProductCategoryRow = React.createClass({
   render: function() {
     return (<tr><th colSpan="2">{this.props.category}</th></tr>);
@@ -120,13 +119,13 @@ var PRODUCTS = [
   
   {category: 'Elektryka', price: '99 zł', stocked: true, name: 'Ładowarka'},
   {category: 'Elektryka', price: '59 zł', stocked: false, name: 'Etui Smasung'},
-  {category: 'Elektryka', price: '999 zł', stocked: true, name: 'Samsung s10'},
+  {category: 'Elektryka', price: '999 zł', stocked: true, name: 'Samsung Galaxy'},
   
     {category: 'Odzież', price: '59 zł', stocked: true, name: 'T-shirt'},
   {category: 'Odzież', price: '99 zł', stocked: true, name: 'Jeansy czarne'},
   {category: 'Odzież', price: '399 zł', stocked: true, name: 'Buty nike'},
 
-    {category: 'Odżywki Sportowe', price: '120 zł', stocked: true, name: 'Białko serwatkowe'},
+    {category: 'Odżywki Sportowe', price: '120 zł', stocked: true, name: 'Białko'},
   {category: 'Odżywki Sportowe', price: '79 zł', stocked: true, name: 'Kreatyna'},
   {category: 'Odżywki Sportowe', price: '2 zł', stocked: true, name: 'Baton proteinowy'},
   
